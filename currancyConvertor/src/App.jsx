@@ -38,7 +38,7 @@ function App() {
                   currancyOptions={options}
                   // eslint-disable-next-line no-unused-vars
                   onCurrancyChange={(currancy) => setFrom(currancy)}
-                  onAmountChange={(amount)=>setAmounnt(amount)}
+                  onAmountChange={(amount) => setAmounnt(amount)}
                   selectCurrancy={from}
                   amountDisable={false}
                 />
